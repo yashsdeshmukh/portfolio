@@ -1,0 +1,53 @@
+.skills-container {
+  width: 80vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:underline;
+    text-decoration-color:aliceblue;
+    text-underline-offset: 5px;
+    @include media(">=phone", "<lgphone") {
+      line-height: 50px;
+      text-align: center;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 14px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 1.2rem;
+    }
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 50px;
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr 1fr;
+    }
+    .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      img {
+        height: 3rem;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

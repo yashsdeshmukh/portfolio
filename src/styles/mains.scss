@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import "./include-media.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+
+// Atoms
+@import "./card.scss";
+
+// Components
+@import "./navbar.scss";
+@import "./header.scss";
+@import "./work.scss";
+@import "./about.scss";
+@import "./skills.scss";
+@import "./background.scss";
+@import "./footer.scss";
+
+* {
+  font-family: "Montserrat";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: rgb(4, 167, 77);
+  background-color: white;
+  /*
+  Un-Comment the lines below for dark mode 
+  */
+  background: black; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232425, #485461, #485461, #232425); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232425, #000000, #000000, #232425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.section {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-btn {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
