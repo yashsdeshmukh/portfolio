@@ -88,7 +88,7 @@ export default {
       imageSrc:
       "https://lh3.googleusercontent.com/proxy/eAteUX6FsKZkqp0FYiYA41e55g88au3XIf7P1OZkT_9rFuH-YCNgI9BueRDeda15hY5eB4blaswa5Ua119QPcMgWnboxoJ1YPHUy8Eh_yMbj4ojr0aKHd1wbGw_x9spCtAaX",
       //Project URL - Add Your Project Url Here
-      url: "https://svirtz.com",
+      url: "https://github.com/warrenferns/DiscLink",
     },
     {
       title: "Algorithms", //Project Title - Add Your Project Title Here
