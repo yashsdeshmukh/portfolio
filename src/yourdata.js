@@ -20,7 +20,7 @@ export default {
 
   //   Header Details ---------------------
   name: "Yash",
-  displayPicture: "https://i.postimg.cc/sxzRXKLT/IMG-20200928-WA0014-02.jpg",
+  displayPicture: "https://i.ibb.co/ZdBdcSy/1630838996654.jpg",
   headerTagline: [
     //Line 1 For Header
     "An engineer who",
@@ -41,6 +41,16 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "Company website", //Project Title - Add Your Project Title Here
+      para:
+        "Company profile and details", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://i.ibb.co/t4Xkcnq/undraw-Website-builder-re-ii6e.png",
+      //Project URL - Add Your Project Url Here
+      url: "https://svirtz.com",
+    },
+    {
       title: "Emotion Based music player", //Project Title - Add Your Project Title Here
       para:
         "A music player that recognises your emotions and plays accordingly", // Add Your description Type Here
@@ -49,6 +59,16 @@ export default {
         "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/yashsdeshmukh/Emotifyo.git",
+    },
+    {
+      title: "Spam Filtering", //Project Title - Add Your Project Title Here
+      para:
+        "An application NLP to filter emails", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://i.ibb.co/Dpj5pvC/undraw-Filing-system-re-56h6.png",
+      //Project URL - Add Your Project Url Here
+      url: "https://share.streamlit.io/warrenferns/spam-filtering/main/main.py",
     },
     {
       title: "Food Khazana", //Project Title - Add Your Project Title Here
@@ -61,32 +81,12 @@ export default {
       url: "https://www.youtube.com/watch?v=1hAPeXlfvLc",
     },
     {
-      title: "Spam Filtering", //Project Title - Add Your Project Title Here
-      para:
-        "An application NLP to filter emails", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1582502580092-0dc3088c7aeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "https://share.streamlit.io/warrenferns/spam-filtering/main/main.py",
-    },
-    {
-      title: "Company website", //Project Title - Add Your Project Title Here
-      para:
-        "Company profile and details", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://svirtz.com",
-    },
-    {
       title: "DiscLink", //Project Title - Add Your Project Title Here
       para:
         "A discussion forum", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-      "https://lh3.googleusercontent.com/proxy/eAteUX6FsKZkqp0FYiYA41e55g88au3XIf7P1OZkT_9rFuH-YCNgI9BueRDeda15hY5eB4blaswa5Ua119QPcMgWnboxoJ1YPHUy8Eh_yMbj4ojr0aKHd1wbGw_x9spCtAaX",
+      "https://i.ibb.co/pXXf21d/undraw-In-sync-re-jlqd.png",
       //Project URL - Add Your Project Url Here
       url: "https://svirtz.com",
     },
