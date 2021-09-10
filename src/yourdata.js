@@ -88,7 +88,7 @@ export default {
       imageSrc:
       "https://i.ibb.co/pXXf21d/undraw-In-sync-re-jlqd.png",
       //Project URL - Add Your Project Url Here
-      url: "https://svirtz.com",
+      url: "https://github.com/warrenferns/DiscLink",
     },
     {
       title: "Algorithms", //Project Title - Add Your Project Title Here
